@@ -98,15 +98,15 @@ console.dir(trainTicketDomElement)
 // variabile per calcolare gli sconti legati a km ed età
 if (etaPasseggero > 65) {
     trainTicketDomElement.innerHTML = (quarantaPerc)
-    console.dir(trainTicketDomElement.innerHTML)
+    console.dir(trainTicketDomElement.innerHTML + '\u20AC')
 
 } else if (etaPasseggero < 18) {
     trainTicketDomElement.innerHTML = (ventiPerc)
-    console.dir(trainTicketDomElement.innerHTML)
+    console.dir(trainTicketDomElement.innerHTML + '\u20AC')
 }
 else {
     trainTicketDomElement.innerHTML = (totalPrice)
-    console.dir(trainTicketDomElement.innerHTML)
+    console.dir(trainTicketDomElement.innerHTML + '\u20AC')
 }
 
 
