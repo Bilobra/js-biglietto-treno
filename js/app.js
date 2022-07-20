@@ -105,7 +105,7 @@ if (etaPasseggero > 65) {
     console.dir(trainTicketDomElement.innerHTML)
 }
 else {
-    trainTicketDomElement.innerHTML = totalPrice +'\u20AC'
+    trainTicketDomElement.innerHTML = totalPrice + '\u20AC'
     console.dir(trainTicketDomElement.innerHTML)
 }
 
