@@ -93,12 +93,13 @@ console.dir(trainTicketDomElement)
 
 // -------------------------------------
 
+// variabile attenzione
 
 
 // variabile per calcolare gli sconti legati a km ed età
 
 if (isNaN(etaPasseggero)) {
-    console.log('attenzione non è un numero')
+    alert('attenzione non è un numero')
 } else {
     if (etaPasseggero > 65) {
         trainTicketDomElement.innerHTML = (quarantaPerc)
