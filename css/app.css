@@ -12,7 +12,22 @@
 }
 
 .container h1{
-    padding: 20px 0;
+    padding: 20px 15px;
     font-size: 50px;
+    font-weight: 600;
+}
+
+#train_price{
+    padding: 15px;
+    font-size: 40px;
     font-weight: 200;
+}
+
+.price_container{
+    background-color: rgb(172, 236, 182);
+    border: 1 px solid black;
+    box-shadow: 5px 10px;;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
 }
