@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    margin: 200px auto;
+    max-width: 1000px;
+    
+}
+
+.container h1{
+    padding: 20px 15px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#train_price{
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+}
+
+.price_container{
+    background-color: rgb(172, 236, 182);
+    border: 1 px solid black;
+    box-shadow: 5px 10px;;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#train_price::after{
+    content: '\20AC';
+    display: inline-block;
+    margin-left: 3px;
+}
