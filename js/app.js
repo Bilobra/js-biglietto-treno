@@ -7,6 +7,8 @@
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
 
+// Se l'età del passeggero è > 65
+    // il presso avrà sconto del 40%
 
 
 
@@ -58,6 +60,25 @@ console.log('prezzo totale senza sconto : ' + totalPrice + ' \u20AC')
 
 // \u20AC SIMBOLO DELL' EURO 
 
+
+// ---------------------------
+// SCONTO 20% <18
+
+const ventiPerc = (totalPrice * ( 1 - 0.2 )).toFixed(2)
+console.log('prezzo scontato 20% : ' + ventiPerc)
+
+// SCONTO 40% >65
+
+const quarantaPerc = (totalPrice * ( 1 - 0.4 ) ).toFixed(2)
+console.log('prezzo scontato 40% : ' + quarantaPerc)
+
+
+// .toFixed alla fine del calcolo, tiene in considerazione solo un certo numero
+// di cifre decimali, (2) ---> ne considera solo due
+
+// -----------------------------
+
+// variabile per > 65
 
 
 
