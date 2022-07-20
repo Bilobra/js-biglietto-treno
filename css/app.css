@@ -19,8 +19,9 @@
 
 #train_price{
     padding: 15px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 200;
+    letter-spacing: 0.1em;
 }
 
 .price_container{
@@ -35,4 +36,5 @@
 #train_price::after{
     content: '\20AC';
     display: inline-block;
+    margin-left: 3px;
 }
