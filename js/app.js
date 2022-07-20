@@ -8,23 +8,56 @@
 // va applicato uno sconto del 40% per gli over 65.
 
 
+
+
+
+// ------------------------------------------------------
+
 // NUMERO CHILOMETRI
 
 // dichiarazione variabile
 
-const chilometri = prompt('Quanti chilometri vuole percorrere? Inserire solo il numero')
+const chilometri = parseInt(prompt('Quanti chilometri vuole percorrere? Inserire solo il numero')) 
 
 // stamp variabile
 
 console.log('numero di km : ' + chilometri)
 
 
+
+
+
+// ------------------------------------------------------
+
 // ETA' PASSEGGERO
 
 // dichiarazione variabile
 
-const etaPasseggero = prompt('Quanti anni ha ? Inserire solo il numero')
+const etaPasseggero = parseInt(prompt('Quanti anni ha ? Inserire solo il numero'))
 
 // stamp variabile
 
 console.log('età del passeggero : ' + etaPasseggero)
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------
+
+// PREZZO TOTALE del biglietto senza sconto applicato
+
+const totalPrice = 0.21 * chilometri
+
+// stamp variabile 
+
+console.log('prezzo totale senza sconto : ' + totalPrice + ' \u20AC')
+
+// \u20AC SIMBOLO DELL' EURO 
+
+
+
+
