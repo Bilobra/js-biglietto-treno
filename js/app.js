@@ -85,6 +85,8 @@ console.log('prezzo scontato 40% : ' + quarantaPerc)
 const trainTicketDomElement = document.getElementById('train_price')
 // controllare quale valore attribuire all' Id = password con CONSOLE.DIR
 console.dir(trainTicketDomElement)
+
+
 // stampiamo del contenuto nel nostro h1 con id password ,
 //  trovando il valore che rappresenta il nostro testo, nell'elenco generato da console.dir
 // nel nostro caso è INNER.HTML
@@ -92,10 +94,11 @@ console.dir(trainTicketDomElement)
 // -------------------------------------
 
 
+
 // variabile per calcolare gli sconti legati a km ed età
 if (etaPasseggero > 65) {
     trainTicketDomElement.innerHTML = (quarantaPerc)
-    console.dir(trainTicketDomElement.innerHTML + '&euro')
+    console.dir(trainTicketDomElement.innerHTML)
 
 } else if (etaPasseggero < 18) {
     trainTicketDomElement.innerHTML = (ventiPerc)

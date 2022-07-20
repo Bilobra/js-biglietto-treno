@@ -31,3 +31,8 @@
     padding: 20px;
     margin-top: 30px;
 }
+
+#train_price::after{
+    content: '\20AC';
+    display: inline-block;
+}
